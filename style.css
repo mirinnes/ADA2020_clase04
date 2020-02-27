@@ -1,0 +1,134 @@
+body{
+    background-color: #497DD1;
+}
+/*p tiene un margin default*/
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+}
+
+.photo {
+    margin: 25px 0px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+.arthur {
+    max-width: 20%;
+    height: 35%;
+}
+
+.rickmorty {
+    max-width: 20%;
+}
+
+.gladiador {
+width: 30%;
+
+}
+
+.lotr {
+    width: 25%;
+}
+.killbill {
+    width: 20%;
+}
+.ljdh {
+    width: 30%;
+}
+.container {
+
+    margin: 20px;
+    padding: 25px 20px;
+    width: 1250px;
+    display: inline-block;
+ 
+}
+
+
+.container .quote {
+    margin: 20px 150;
+    padding-left: 15px;
+    border-left: 3px solid #dfdfdf8c;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.container .fuente {
+    text-align: right;
+    font-family: 'Wire One', sans-serif;
+    font-size: 25px;
+    margin: 50px 100px;
+}
+.container .author {
+    
+    text-align: right;
+    margin: 16px 150px;
+}
+
+.seccion-1 {
+    text-align: center;
+    background-color: #59A4FF;
+    padding: 20px;
+}
+/* si escribo .seccion-2 .container .cita-3 
+puedo estilar la cita de Gladiador directly*/
+.seccion-2 {
+    text-align: center;
+    background-color: #FF7F73;
+    padding: 20px;
+}
+.seccion-3 {
+    text-align: center;
+    background-color: #B2CC33;
+    padding: 20px;
+}
+
+.cita-1 {
+
+    background-color: #43D0DE;
+    font-family: 'Lacquer', sans-serif;
+}
+
+.cita-1 .author {
+    font-size: 20px;
+}
+.cita-2 {
+
+    background-color: #5A43DE;
+    font-family: 'Pangolin', cursive;
+}
+
+.cita-2 .author {
+    font-size: 20px;
+}
+.cita-3 {
+    background-color: #FF9F66;
+    font-family: 'Cinzel', serif;
+}
+.cita-4 {
+    background-color: #FF66D3;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cita-4 .author {
+    font-size: 20px;
+}
+.cita-5 {
+    background-color: #43D92B;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.cita-5 .author {
+    font-size: 20px;
+}
+.cita-6 {
+    background-color: #D9BE2B;
+    font-family: 'Poiret One', cursive;
+}
+.cita-6 .author {
+    font-size: 25px;
+}

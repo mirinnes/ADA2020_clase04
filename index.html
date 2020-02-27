@@ -1,0 +1,123 @@
+<!--En una carpeta nueva:
+
+Crear un archivo index.html.
+
+Escribir la estructura básica de un documento html.
+
+En el mismo, crear seis "secciones" separadas por hr.
+
+Cada sección puede contener:
+
+Una cita con el nombre de quién la dijo/escribió, y en dónde.
+Un fragmento de una entrada de Wikipedia, con el nombre del artículo de Wikipedia.
+Es decir, una "sección" sólo debe contener dos elementos p principales: el párrafo de la cita o fragmento y el texto de la fuente.
+
+Utilizar, las etiquetas strong, b, em y mark en algunos de estos párrafos.
+
+En el archivo de citas:
+
+Agregar tipografías con google fonts
+Encerrar cada cita en un div, con clase "container"
+Encerrar cada elemento en otro div, con clase "section"
+Ponerle a cada "section" y a cada "container" un color de fondo distinto (para esto van a tener que agregar una clase distinta a cada uno, como "section-first")
+Ponerle a "container"
+un ancho en pixeles
+un margin en pixeles, para que quede espaciado verticalmente a la misma distancia con respecto a "section", y quede centrado horizontalmente
+un padding en pixeles
+A las citas, agregarle un border-left y un padding, para que parezca un bloque de cita
+
+Completar el archivo de las citas agregándole una imagen relacionada a la misma, 
+redondeando las esquinas con border-radius, recortando el exceso con overflow: 
+hidden y dándole una sombreado con box-shadow
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas Memorables</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dynalight|Lacquer|Pangolin|Ruda|Wire+One&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Gloria+Hallelujah|Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+ <body>   
+    <div class="seccion-1"> 
+        <div class="container cita-1">
+            <h1>Joker</h1>
+            <img class="photo arthur" src="img/joker.png" alt="Arthur Fleck">
+            <p class="quote">Nunca te olvides de sonreir. Por que <mark style="background-color: #A6CEFF;">a nadie le importa como te sientes</mark> sino como te ves. <br> </p>
+            <p class="author"><em>Arthur Fleck</em> </p>
+            <p class="quote">¿Por qué tenerle miedo <strong>a la muerte</strong>? Si es lo único <strong>seguro que uno tiene.</strong> <br> </p>
+            <p class="author"><em>Arthur Fleck</em> </p>
+            <p class="fuente"> Este texto fue extraído de la fuente <a href="https://www.youtube.com/watch?v=GZCitLerE_Y">Joker</a> </p>
+            </div>
+        <div class="container cita-2">
+            <h1>  Rick & Morty </h1>
+            <img class="photo rickmorty" src="img/RickAndMorty_yndlhd.jpg" alt="Rick Sanchez">
+            <p class="quote"> Escuchen, no soy el hombre mas amable del universo, <b>por que soy el mas inteligente</b>. Y ser amable es algo que la gente estúpida hace
+            para <b>mejorar sus opciones</b><br></p>
+            <p class="author"> <em >Rick Sánchez</em> </p>
+            <p class="quote">A veces <mark style="background-color: #A6CEFF;">la ciencia es mas arte que ciencia</mark>. Muchas personas no entienden eso. <br>  </p>
+            <p class="author"> <em >Rick Sánchez</em> </p>
+            <p class="fuente"> Para ver mas <em>BREEEP!</em>  frases, haz click en este link!- <a href="https://www.youtube.com/watch?v=smzC9aRm2-0">Rick Sanchez</a> </p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="seccion-2">
+        <div class="container cita-3">
+            <h1>  Gladiador </h1>
+            <img class="photo gladiador" src="img/gladiador.jpg" alt="Rick Sanchez">
+
+            <p class="quote"> Lo que <b> hacemos en la vida</b>, tiene su eco en la <strong>eternidad</strong>. <br>  </p>
+            <p class="author"> <em>Maximo Décimo Meridio</em></p>
+            <p class="quote"> -Muchas cosas cambian. <br> -Muchas cosas... pero no <strong>todas</strong>. <br> </p>
+            <p class="author"> <em >Lucilla</em> </p>
+            <p class="fuente"> Para ver mas frases de esta inspiradora película, click en: <a href="https://www.youtube.com/watch?v=dyr0QjTu0Ds&t=17s">Gladiador </a> </p>
+            </div>
+        <div class="container cita-4">
+            <h1>El señor de los anillos</h1>
+            <img class="photo lotr" src="img/loftr.jpg" alt="Rick Sanchez">
+
+            <p class="quote">Saruman piensa que solo los grandes poderes pueden tener al mal controlado. Pero eso no es lo que yo he aprendido.
+            Yo he encontrado que <mark style="background-color: #FFC5BF;">son las cosas pequeñas</mark>, los actos cotidianos de personas ordinarias, <mark style="background-color: #FFC5BF;">los que alejan a la maldad.</mark>
+            <b>Los simples actos de gentileza y amor.</b> <br> </p>
+            <p class="author"> <em>Gandalf</em>  </p>
+            <p class="quote">El <strong> valor verdadero </strong> no es saber cuando quitar una vida, sino <strong>cuando perdonarla.</strong> </p>
+            <p class="author"> <em>Gandalf</em>  </p>
+            <p class="quote">Ni los sabios ven todos los finales. <br> </p>
+            <p class="author"> <em>Gandalf</em>  </p>
+            <p class="fuente">Para encontrar mas de estas bellisimas frases, segui <a href="https://www.youtube.com/watch?v=b8kavMBKcjE">El señor de los Anillos</a> </p>
+        </div>
+    </div>
+    <hr>
+
+    <div class="seccion-3">
+        <div class="container cita-5">
+            <h1>Kill Bill</h1>
+            <img class="photo killbill" src="img/killbill.jpg" alt="Rick Sanchez">
+
+            <p class="quote">Its mercy, compassion and forgiveness I lack. <mark style="background-color: #D7DDBC"> Not rationality. </mark> <br> </p>
+            <p class="author"><em>Beatrix Kiddo</em> </p>
+            <p class="quote"><mark style="background-color: #D7DDBC;">The price you pay </mark> for bringing up either my Chinese or American heritage as a negative is... I <strong> collect your f***ing head. </strong> Just like this f***er here. Now, if any of you sons of bitches got anything else to say, now's the f***ing time!
+            <br>  </p>
+            <p class="author"><em>O-Ren Ishii</em> </p>
+            <p class="fuente"> Este texto fue extraído de la fuente <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Lorem Ipsum </a> </p>
+        </div> 
+        <div class="container cita-6">
+            <h1>Los juegos del hambre</h1> 
+            <img class="photo ljdh" src="img/los-juegos-del-hambre.jpg" alt="Rick Sanchez">
+
+            <p class="quote">En algun punto tienes que <strong> parar de correr </strong>, girarte y encararte a <mark style="background-color: #D7DDBC">lo que sea que te quiere muerta. </mark> <br></p>
+            <p class="author"><em>Katnis</em> </p>
+            <p class="quote">Para que haya traición, debe haber primero confianza. <br> </p>
+            <p class="author"><em>Katnis</em> </p>
+            <p class="fuente"> Este texto fue extraído de la fuente <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Lorem Ipsum </a> </p>
+        </div>
+    </div>
+</body>
+</html>
